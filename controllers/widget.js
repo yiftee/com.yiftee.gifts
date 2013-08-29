@@ -9,7 +9,6 @@ var return_url = "";
 var host="https://yiftee.com/api/v1/gifts/send.html?";
 
 
-
 function generateUrl(){
 
 	var url = host + "api_token=" + api_token;
@@ -71,11 +70,6 @@ function setMessage(msg){
 function setReturnUrl(url){
 	return_url = url;
 }
-
-function hideLoadingSpinner(){
-
-}
-
 
 
 

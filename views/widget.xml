@@ -1,4 +1,3 @@
 <Alloy>
 		<WebView id="giftsWebView" url="http://about:blank" />
-		
 </Alloy>
