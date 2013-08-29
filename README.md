@@ -8,7 +8,7 @@ This widget for the [Appcelerator](http://www.appcelerator.com) Titanium Alloy M
 
 How do I add gifts to my app?
 
-* [Download]() the latest release of the widget.
+* [Download](https://github.com/yiftee/com.yiftee.gifts/releases) the latest release of the widget.
 * Copy `com.yiftee.gifts` to your app's `app/widgets` folder.
 * Add the widget to your app's configuration file `app/confi.json`:
 
