@@ -10,7 +10,7 @@ How do I add gifts to my app?
 
 * [Download](https://github.com/yiftee/com.yiftee.gifts/releases) the latest release of the widget.
 * Copy `com.yiftee.gifts` to your app's `app/widgets` folder.
-* Add the widget to your app's configuration file `app/confi.json`:
+* Add the widget to your app's configuration file `app/config.json`:
 
 ```javascript
 "dependencies": {
@@ -19,9 +19,10 @@ How do I add gifts to my app?
 ```
 
 * Require the gifts widget in a view:
-```xml
-<Widget src="com.yiftee.gifts" id="gifts"/>`
 ```
+<Widget src="com.yiftee.gifts" id="gifts"/>
+```
+
 * Setup parameters (these could be passed in via arguments to the view, or from the database):
 ```javascript
 $.gifts.setSenderName("Bob";
