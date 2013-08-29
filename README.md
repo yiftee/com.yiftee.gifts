@@ -38,6 +38,7 @@ Go to the [Yiftee Developers](http://yiftee.com/developers) site, and register a
 
 ## Parameters
 Most of these parameters are used to prefill information in the gifting process to help the gift giver enter the fewest info possible. The Gifts Widget exposes the following methods:
+
 | Method | Description |
 | ------ | ----------- |
 | setApiToken(token) | Sets the api token to pass to the Giftup API.  If this is not set, it will use a test token and no purchased gifts will be attributed to you. Get your [Gifts API key](http://yiftee.com/developers) |
