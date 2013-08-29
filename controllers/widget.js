@@ -9,6 +9,7 @@ var return_url = "";
 var host="https://yiftee.com/api/v1/gifts/send.html?";
 
 
+
 function generateUrl(){
 
 	var url = host + "api_token=" + api_token;
@@ -55,6 +56,10 @@ function setRecipientEmail(email){
 	recipient_email = email;
 }
 
+function setRecipientPhone(phone){
+	recipient_phone = phone;
+}
+
 function setSenderIdHash(hash){
 	sender_id_hash = hash;
 }
@@ -67,16 +72,22 @@ function setReturnUrl(url){
 	return_url = url;
 }
 
+function hideLoadingSpinner(){
+
+}
+
 
 
 
 exports.setSenderName=setSenderName;
 exports.setRecipientName=setRecipientName;
 exports.setRecipientEmail=setRecipientEmail;
+exports.setRecipientPhone=setRecipientPhone;
 exports.setSenderIdHash=setSenderIdHash;
 exports.setMessage=setMessage;
 exports.setReturnUrl=setReturnUrl;
 exports.open=generateUrl;
+exports.setApiToken=setApiToken;
 
 
 
